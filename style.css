@@ -1,0 +1,100 @@
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+/* ===== GENERAL ===== */
+*, body {
+	box-sizing: border-box;
+	font-family: -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	touch-action: manipulation;
+}
+
+
+* {
+	user-select: none;
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently
+								  supported by Chrome, Edge, Opera and Firefox */
+								  
+	color: white;
+}
+
+
+body {
+	background-color: rgb(18, 18, 19);
+	display: flex;
+	height: 100vh;
+	margin-top:10px;
+}
+
+h1 {
+	font-size: 1.8em;
+	font-weight: bold;
+	margin: 8px 0;
+}
+
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: rgb(83, 141, 78);
+	border-radius: 4px;
+	border: 0;
+	padding: 3px 6px;
+	font-size: 18px;
+	height: 40px;
+	width: 180px;
+	margin: 4px 0;
+}
+
+#lrbuttons {
+	display: flex;
+}
+
+#lrbuttons button {
+	width: 86px;
+	margin-bottom: 8px;
+}
+
+#addButton {
+	background-color: rgb(70, 55, 186);
+	margin-left: 0;
+	margin-right: 4px;
+}
+
+#removeButton {
+	background-color: rgb(166, 28, 28);
+	margin-right: 0;
+	margin-left: 4px;
+}
+
+#blocks {
+	cursor: pointer;
+	user-select: none;
+	font-family:'Segoe UI Emoji';
+	margin-top: 10px;
+	font-size: 30px;
+}
+
+#blocks span {
+	display: inline-block;
+	margin-top: 7px;
+	display: inline-block;
+	margin-right: 7px;
+}
+
+#center {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+#copy {
+	margin-top: 12px;
+}
