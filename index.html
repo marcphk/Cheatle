@@ -38,6 +38,12 @@
 			margin-top:10px;
 		}
 		
+		h1 {
+			font-size: 1.8em;
+			font-weight: bold;
+			margin: 8px 0;
+		}
+		
 		button {
 			display: flex;
 			justify-content: center;
@@ -51,7 +57,7 @@
 			font-size: 18px;
 			height: 40px;
 			width: 180px;
-			margin-bottom: 8px;
+			margin: 4px 0;
 		}
 		
 		#lrbuttons {
@@ -59,16 +65,20 @@
 		}
 		
 		#lrbuttons button {
-			width: 87px;
-			margin: 4px 2px;
+			width: 86px;
+			margin-bottom: 8px;
 		}
 		
 		#addButton {
 			background-color: rgb(70, 55, 186);
+			margin-left: 0;
+			margin-right: 4px;
 		}
 		
 		#removeButton {
 			background-color: rgb(166, 28, 28);
+			margin-right: 0;
+			margin-left: 4px;
 		}
 		
 		#blocks {
@@ -100,10 +110,11 @@
 	</head>
 <body>
 	<div id="center">
+		<h1>Cheatle</h1>
 		<button id="copyButton">Copy</button>
 		<div id="lrbuttons">
-		<button id="addButton">&plus;</button>
-		<button id="removeButton">&minus;</button>
+			<button id="addButton">&plus;</button>
+			<button id="removeButton">&minus;</button>
 		</div>
 		<div id="copy">
 			<div>Cheatle <span id="number"></span> <span id="count"></span>/6</div>
